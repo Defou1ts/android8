@@ -1,0 +1,19 @@
+<!-- res/drawable/flag_france.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="50dp"
+    android:height="30dp"
+    android:viewportWidth="50"
+    android:viewportHeight="30">
+    <!-- Левая синяя полоса -->
+    <path
+        android:fillColor="#0055A4"
+        android:pathData="M0,0h16.6v30H0z" />
+    <!-- Средняя белая полоса -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M16.6,0h16.8v30H16.6z" />
+    <!-- Правая красная полоса -->
+    <path
+        android:fillColor="#EF4135"
+        android:pathData="M33.4,0h16.6v30H33.4z" />
+</vector>

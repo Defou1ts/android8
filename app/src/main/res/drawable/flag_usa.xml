@@ -1,0 +1,20 @@
+<!-- res/drawable/flag_usa.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="50dp"
+    android:height="30dp"
+    android:viewportWidth="50"
+    android:viewportHeight="30">
+    <!-- Полосы -->
+    <path
+        android:fillColor="#BF0A30"
+        android:pathData="M0,0h50v3H0zM0,6h50v3H0zM0,12h50v3H0zM0,18h50v3H0zM0,24h50v3H0zM0,30h50v3H0z" />
+    <!-- Голубой прямоугольник -->
+    <path
+        android:fillColor="#002868"
+        android:pathData="M0,0h20v15H0z" />
+    <!-- Белые звезды -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M2,2l1,3h3l-2,2l1,3l-2,-2l-2,2l1,-3l-2,-2h3z" />
+    <!-- Добавьте больше звезд по необходимости -->
+</vector>

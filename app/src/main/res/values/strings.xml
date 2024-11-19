@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Country Information</string>
+    <string name="country_flag">Flag of the country</string>
+    <string name="country_name_label">Country Name:</string>
+    <string name="country_capital_label">Capital:</string>
+    <string name="country_population_label">Population:</string>
+    <string name="country_language_label">Language:</string>
+
+    <!-- Названия стран -->
+    <string name="country_usa">United States</string>
+    <string name="country_france">France</string>
+    <string name="country_japan">Japan</string>
+
+    <!-- Столицы -->
+    <string name="capital_usa">Washington D.C.</string>
+    <string name="capital_france">Paris</string>
+    <string name="capital_japan">Tokyo</string>
+
+    <!-- Языки -->
+    <string name="language_english">English</string>
+    <string name="language_french">French</string>
+    <string name="language_japanese">Japanese</string>
+</resources>

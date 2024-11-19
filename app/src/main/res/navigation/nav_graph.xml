@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listVFragment">
+
+    <fragment
+        android:id="@+id/listVFragment"
+        android:name="com.example.lab8.ListVFragment"
+        android:label="ListVFragment" />
+
+    <fragment
+        android:id="@+id/recyclerFragment"
+        android:name="com.example.lab8.RecyclerFragment"
+        android:label="RecyclerFragment">
+        <action
+            android:id="@+id/action_recyclerFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.lab8.DetailFragment"
+        android:label="DetailFragment" >
+        <argument
+            android:name="countryName"
+            app:argType="string" />
+        <argument
+            android:name="countryCapital"
+            app:argType="string" />
+        <argument
+            android:name="countryFlag"
+            app:argType="integer" />
+        <argument
+            android:name="countryPopulation"
+            app:argType="integer" />
+        <argument
+            android:name="countryLanguage"
+            app:argType="string" />
+    </fragment>
+</navigation>
